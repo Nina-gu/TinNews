@@ -28,6 +28,7 @@ public class SavedNewsAdapter extends RecyclerView.Adapter<SavedNewsAdapter.Save
     private ItemCallback itemCallback;
 
     public void setItemCallback(ItemCallback itemCallback) {
+
         this.itemCallback = itemCallback;
     }
 
